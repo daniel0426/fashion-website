@@ -1,0 +1,23 @@
+{
+    "items" : [
+        {"type": "tops", "price": 80,"name":"waffle long-sleeve T-shirts otmeal", "image": "../images/top1.jpg"},
+        {"type": "bottoms", "price": 120,"name":"Recycle String Pants Orange", "image":"../images/bottom3.jpg" },
+        {"type": "tops", "price": 65,"name":"Simple Snap Shirts Dust Pink", "image": "../images/top3.jpg"},
+        {"type": "tops", "price": 100,"name":"Recycle String MTM Orange", "image": "../images/top4.jpg"},
+        {"type": "accessories", "price": 120,"name":"Cordura Pouch Backpack", "image": "../images/accessories2.jpg"},
+        {"type": "bottoms", "price":115 ,"name":"wide-leg long pants dark grey", "image":"../images/bottom1.jpg" },
+        {"type": "outwears", "price": 280 ,"name":"Paper Yarn Zen Setup White Jacket 'White'", "image":"../images/outwear1.jpg" },
+        {"type": "accessories", "price": 160,"name":"Hexagon loafer", "image": "../images/accessories3.jpg"},
+        {"type": "accessories", "price": 145,"name":"Hexagon Sandal", "image": "../images/accessories4.jpg"},
+        {"type": "outwears", "price": 160,"name":"wool blend melton shirts jacket black multi", "image":"../images/outwear3.jpg" },
+        {"type": "tops", "price": 110,"name":"mohair boyfriends sweater brownie", "image": "../images/top2.jpg"},
+        {"type": "bottoms", "price":180 ,"name":"Paper Yarn Zen Setup Pants 'White'", "image":"../images/bottom4.jpg" },
+        {"type": "outwears", "price": 280,"name":"Paper Yarn Zen Setup Jacket 'Black'", "image": "../images/outwear2.jpg"},
+        {"type": "bottoms", "price":140 ,"name":"curvy silhouette denim pants indigo", "image": "../images/bottom2.jpg"},
+        {"type": "outwears", "price": 160,"name":"wool blend melton shirts jacket stripe", "image":"../images/outwear4.jpg" },
+        {"type": "accessories", "price":90 ,"name":"Leather Washed Belt Black", "image": "../images/accessories1.jpg"}
+        
+    ]
+
+
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+  rel="stylesheet"
+  href="//use.fontawesome.com/releases/v5.0.7/css/all.css"/>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/imageslide.css">
+  <link rel="stylesheet" href="./css/description.css">
+  <link rel="stylesheet" href="./css/login.css">
+  <link rel="stylesheet" href="./css/collection.css">
+  <link rel="stylesheet" href="./css/footer.css">
+
+  <title>Daniel Lookbook</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav_logo">
+        <a href="index.html">
+            <h3 class="nav_title">Daniel</h3>
+            <h5 class="nav_subTitle">Look Book</h5>
+        </a>
+    </div>
+      <ul class="nav_menu">
+        <li><a href="./shop.html">Shop</a></li>
+        <li><a href="./collection.html">Collection</a></li>
+        <li><a href=""><i class="fas fa-shopping-cart"></a></i></li>
+        <li><a><i class="far fa-user loginBtn"></i> </a></li> 
+      </ul>
+     
+        <i class="toggle_btn fas fa-bars"></i>
+  </nav>
+
+  <main class="image-container">
+    <div class="image-slide">
+      <img id="lastClone" src="/images/5.jpg" alt="image5_clone">
+      <img src="./images/1.jpg" alt="image1">
+      <img src="./images/2.jpg" alt="image2">
+      <img src="./images/3.jpg" alt="image3">
+      <img src="/images/4.jpg" alt="image4">
+      <img src="/images/5.jpg" alt="image5">
+      <img id="firstClone" src="./images/1.jpg" alt="image1_clone">
+
+    </div>
+    <i id="prevBtn" class="prevBtn fas fa-angle-left"></i>
+    <i id="nextBtn" class="nextBtn fas fa-angle-right"></i>
+  </main>
+
+  <section class="description-container">
+    <h1 class="description-title">We Provide Latest Style</h1>
+    <div class="description-box-container">
+      <div class="description-box">
+        <h3>Uniqueness</h3>
+        <img src="./images/box-1.jpg" alt="">
+        <span><a href="./shop.html" >Shop Now</a></span>
+      </div> 
+
+      <div class="description-box">
+        <h3>Creativity</h3>
+        <img src="./images/box-2.jpg" alt="">
+        <span><a href="./shop.html" >Shop Now</a></span>
+
+      </div> 
+      <div class="description-box">
+        <h3>Renovative</h3>
+        <img src="./images/box-3.jpg" alt="">
+        <span><a href="./shop.html" >Shop Now</a></span>
+
+      </div> 
+
+    </div>
+  </section>
+  <section class="collection">
+  <div class="collection-container">
+      <h3 class="collection-title">collection</h3>
+      <p class="collection-desc">Daniel .co wants to create "clothes" that are familiar but new, </br>unfamiliar but comfortable, valuable to someone</p>
+      <img class="collection-img" src="./images/collection.jpg" alt="collection_background">
+      <button class='collectionBtn'><a href="collection.html">2020 F/W Styling Guide </a></button>
+  </div>
+</section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      
+        <ul class="link">
+          <a href="https://github.com/daniel0426/portfolio"><li><i class="fab fa-github"></i></li></a>
+          <a href="https://www.instagram.com/jhj_in/?hl=en"><li><i class="fab fa-instagram"></i></li></a>
+          <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZdBRxwJCMxwcgZHPGxsckQqphdJKfJZDngHbLLfxLNJDqTlRGhfhhTjZfnDdJMPKRtFSV"><li><i class="far fa-envelope"></i></li></a>
+        </ul>
+      
+      <p>All source code is on my github.</p>
+      <p>Copyright Daniel co. All rights reserved.</p>
+    </div>
+  </footer>
+  
+   
+  <div class="login-container">
+    <i class="far fa-times-circle closeBtn"></i>
+    <div class="login-box">
+    <h2>Login</h2>
+    <span class="email">Email</span>
+    
+    <input type="email"  required>
+    <span class='password'>Password</span>
+
+    <input  type="password" required>
+    <button type="submit">SIGN IN</button>
+    <span class="forgotPassword">Forgot Your Password?</span>
+  
+  </div>
+  </div>
+ 
+
+  <script src="./js/toggle.js"></script>
+  <script src="./js/imageslide.js"></script>
+  <script src="./js/logintoggle.js"></script>
+</body>
+</html>

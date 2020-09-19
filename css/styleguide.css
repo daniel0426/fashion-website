@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&600&family=Roboto:ital,wght@0,100;0,300;1,300&family=Shadows+Into+Light&display=swap');
+
+.main {
+    width: 80%;
+    margin: 4rem auto;
+    padding: 1rem;
+    padding-bottom: 6rem;
+    border-bottom: 1px solid darkgray;
+    font-family: 'Roboto', sans-serif;
+}
+.main_title{
+    text-align:center;
+    font-size : 1.6rem;
+    font-weight: 600;
+    color: #2f3640;
+    text-shadow: 2px 1px darkgray;
+    margin-bottom: 3rem;
+}
+.style-container {
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 1rem auto;
+    
+}
+
+.styling-box{
+    width: 28%;
+   
+    margin: 1rem;
+}
+.styling-box img{
+    width: 100%;
+    cursor:pointer;
+}
+.styling-box p{
+    padding-left: 10px;
+    font-size: 0.8rem;
+
+    margin-bottom:3px;
+    letter-spacing:0.5px;
+}
+
+@media screen and (max-width: 768px){
+    .style-container {
+        
+        align-items:center;
+        flex-direction:column;
+        flex-wrap:no-wrap;
+    }
+    .styling-box{
+        width: 50%;
+    }
+}

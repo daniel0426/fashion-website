@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Roboto:ital,wght@0,300;1,300&family=Shadows+Into+Light&display=swap');
+:root{
+    --title-color: #95afc0;
+    --description-color: #2f3640;
+    
+}
+
+.collection {
+    width: 90%;
+    margin:auto;
+    padding: 20px;
+    padding-bottom: 6rem;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: 6rem;
+}
+.collection-container {
+    font-family: 'Roboto', sans-serif;
+    position:relative;
+    width: 90%;
+    margin:auto;
+    padding: 20px;
+    border-radius: 1rem;
+    letter-spacing: 2px;
+    
+    /* border: 1px solid black; */
+   
+  
+}
+
+.collection-title{
+    color: var(--title-color);
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.collection-desc {
+    color: var(--description-color);
+    font-size: 0.8rem;
+    text-align:center;
+    margin-bottom: 2rem;
+}
+.collectionBtn {
+    /* background-color: white; */
+
+   position:absolute;
+   bottom: -20px;
+   right: 30px;
+   width: 30%;
+    color: #2f3640;
+    padding: 5px 5px;
+    outline:none;
+    border-radius: 5px;
+    border:1px solid black;
+    font-style: italic;
+    cursor:pointer;
+}
+.collectionBtn a{
+    color: var(--background-color);
+}
+.collectionBtn:hover a{
+    color: #ffffff;
+}
+
+.collection-img{
+    
+    width: 100%;
+    border-radius:5px;
+    position:relative;
+}
+.collection-img:hover .collectionBtn{
+    display:none;
+}

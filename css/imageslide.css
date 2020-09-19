@@ -1,0 +1,60 @@
+
+.image-container {
+    
+    width: 55%;
+    margin:auto;
+    overflow:hidden;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.8);
+    
+}
+.image-slide {
+    
+    display:flex;
+    height:450px;
+   min-width: 500px;
+   
+   /* overflow:hidden; */
+    
+}
+
+.image-slide img{
+    min-width: 100%;
+    height:auto;
+    transition: transform 0.7s ease-out;
+   
+}
+.image-slide img:hover{
+    transform: scale(1.15);
+}
+
+.prevBtn, .nextBtn{
+    background:none;
+    border:none;
+    padding:0;
+    color:darkslategray;
+    font-size: 2rem;
+    opacity: 0.6;
+    position: absolute;
+    top: 400px;
+    cursor:pointer;
+    transition: all 0.2s ease-in;
+    
+}
+
+
+.prevBtn:hover{
+    
+    opacity: 1;
+    color: #30336b;
+}
+.nextBtn:hover{
+    opacity: 1;
+    color: #30336b;
+}
+
+.prevBtn {
+    left: 13%
+}
+.nextBtn {
+    right: 13%;
+}
